@@ -1,3 +1,5 @@
+package a_Tworzenie_uruchamianie;
+
 import a_Zadania.a_Dzien_1.a_Tworzenie_uruchamianie.SampleClass;
 import org.junit.Assert;
 import org.junit.Test;

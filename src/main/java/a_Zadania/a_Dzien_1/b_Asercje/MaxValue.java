@@ -2,13 +2,13 @@ package a_Zadania.a_Dzien_1.b_Asercje;
 
 public class MaxValue {
 	public static int largest(int[] list) {
-		int index, max = Integer.MAX_VALUE;
+		int index, max = list[0];
 
 		if (list.length == 0) {
 			throw new RuntimeException("Lista jest pusta");
 		}
 
-		for (index = 0; index < list.length - 1; index++) {
+		for (index = 0; index < list.length; index++) {
 			if (list[index] > max) {
 				max = list[index];
 			}

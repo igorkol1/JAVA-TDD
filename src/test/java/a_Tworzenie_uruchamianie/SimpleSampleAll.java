@@ -1,3 +1,5 @@
+package a_Tworzenie_uruchamianie;
+
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
